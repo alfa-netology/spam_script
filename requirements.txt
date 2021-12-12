@@ -1,4 +1,5 @@
 aiosmtplib==1.1.6
 aiosqlite==0.17.0
 more-itertools==8.12.0
+python-dotenv==0.19.2
 typing_extensions==4.0.1
