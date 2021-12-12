@@ -6,6 +6,14 @@ from email.message import EmailMessage
 import os
 from dotenv import load_dotenv
 
+"""
+С ошибками, о которых писал в комментариях к работе, справился.
+Но возникли новые вопросы:
+Как отслеживать выполнение задач? 
+Письмо отправилось/не отправилось, как получить сообщение об этом?
+Как прикрутить прогресс бар?
+"""
+
 
 async def get_data(sender, hostname, port, username, password):
     messages = []
